@@ -1,23 +1,61 @@
 aid: aurate
+
 name: Aurate
-description: 'Aurate is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: http://auratenewyork.com/cdn/shop/t/35/assets/og-image.png?v=57472515067479349441773774059
+
+description: 'Aurate New York is a sustainable fine jewelry brand offering ethically sourced, lab‑grown diamond and gemstone pieces. Their collections emphasize eco‑friendly materials, recycled gold, and customizable designs that reflect personal stories and values.'
+
 url: https://raw.githubusercontent.com/api-evangelist/aurate/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Jewelry
+- Sustainable
+- Ethical
+- E‑commerce
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/aurate-llms.txt
+- type: WellKnown
+  url: well-known/aurate-well-known.yml
+- type: Hosts
+  url: hosts/aurate-hosts.yml
+- type: Vendors
+  url: vendors/aurate-vendors.yml
+- type: Newsroom
+  url: https://auratenewyork.com/blogs/news
+- type: Blog
+  url: https://auratenewyork.com/blogs/blog
+- type: DomainSecurity
+  url: security/aurate-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://auratenewyork.com/
+
+apis: []
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
