@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/aurate/integrations
+- https://n8n.io/integrations/aurate/
+- https://composio.dev/toolkits/aurate
+- https://monid.ai/tools/aurate
+checked:
+- https://composio.dev/toolkits/aurate
+- https://monid.ai/tools/aurate
+- https://n8n.io/integrations/aurate/
+- https://zapier.com/apps/aurate/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
